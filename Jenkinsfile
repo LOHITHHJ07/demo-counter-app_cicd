@@ -24,16 +24,13 @@ pipeline{
                 }
             }
         }
-        // stage('Integration testing'){
+        stage('Integration testing'){
             
-        //     steps{
-                
-        //         script{
-                    
-        //             sh 'mvn verify -DskipUnitTests'
-        //         }
-        //     }
-        // }
+            steps{
+                script {
+               sh 'mvn verify -DskipUnitTests'
+
+        }
         // stage('Maven build'){
             
         //     steps{
