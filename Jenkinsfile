@@ -32,6 +32,8 @@ pipeline{
 
                 }
             }
+
+        }
         // stage('Maven build'){
             
         //     steps{
