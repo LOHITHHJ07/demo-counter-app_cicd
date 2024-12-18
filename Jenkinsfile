@@ -30,7 +30,8 @@ pipeline{
                 script {
                sh 'mvn verify -DskipUnitTests'
 
-        }
+                }
+            }
         // stage('Maven build'){
             
         //     steps{
